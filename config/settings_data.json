@@ -1,5 +1,7 @@
 {
   "current": {
+    "color_button_text": "#16da3c",
+    "color_primary": "#19d43d",
     "type_header_family": "sans-serif",
     "type_header_base_size": "34px",
     "type_accent_transform": false,
@@ -13,7 +15,7 @@
         "settings": {
           "logo_max_width": 180,
           "header_color": "#000000",
-          "transparent_header_enable": true,
+          "transparent_header_enable": false,
           "transparent_header_color": "#ffffff",
           "search": "modal",
           "main_menu_link_list": "main-menu",
@@ -44,7 +46,7 @@
               "button_link": "shopify:\/\/pages\/contact",
               "slide_text_color": "#000000",
               "slide_button_label_color": "#ffffff",
-              "slide_button_background_color": "#1f2021"
+              "slide_button_background_color": "#067a46"
             }
           }
         },
@@ -132,43 +134,96 @@
           "footer_link_list": "footer"
         }
       },
-      "1633806834bd979e4e": {
-        "type": "Slider-From-Tim",
-        "settings": {
-          "title": "Product slideshow",
-          "home_featured_products": "",
-          "home_slider_auto": true,
-          "home_slider_auto_speed": "3000",
-          "home_slider_slides": "2",
-          "home_slider_limit": "6",
-          "home_slider_hidetext": false,
-          "home_slider_hidelables": true
-        }
-      },
-      "163380754370d8aa6a": {
-        "type": "featured-products",
-        "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "products",
-          "collection_products_grid": "grid"
-        }
-      },
-      "16338095234e25be44": {
-        "type": "featured-collections",
+      "1633957034716f9d52": {
+        "type": "advanced-content",
         "blocks": {
-          "16338095234e25be44-0": {
-            "type": "collection",
+          "53a3d78a-daa9-456f-bb5e-b6f6bbace3a7": {
+            "type": "html",
             "settings": {
-              "collection": "products"
+              "code": "<div style=\"text-align:center;\"><h3>Dinner,Delivered.How it works.<\/h3><\/div>",
+              "width": "100%",
+              "alignment": "top-middle"
             }
           },
-          "16338095234e25be44-1": {
+          "1633957034716f9d52-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"row\">\n  <div style=\"text-align:center; class=\" column=\"\">\n<h5>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0602\/9721\/6225\/files\/HF_illustration_1.jpg?v=1633957474\" alt=\"HF img 2\" style=\"width:100%\">\nMore Choice, less boredom\n<\/h5>\n<p>Choose from 50 weekly menu + market items including vegetarian, kid-approved and low calorie meals, crafted and curated by our chefs. Add ready to eat salads, sandwiches, soups and many more options.<\/p>\n\n\n <\/div>\n\n<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "137aec04-55c1-4c35-bafd-4a319cc50fb6": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"row\" style=\"text-align:center;\">\n  <div class=\"column\">\n   <h5>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0602\/9721\/6225\/files\/Hello_Fresh_illustration_2.jpg?v=1633957487\" alt=\"HF img 2\" style=\"width:100%\">\nQuicker Recipes, Less Prep Work<\/h5>\n<p>Get pre-measured ingredients and recipe cards delivered right to your door. Enjoy fresh takes on meals that are on the table in ~30 minutes.<\/p>\n<\/div>\n<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          },
+          "342d771a-aa1c-407e-a6ee-7f6131683738": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"row\" style=\"text-align:center;\">\n  <div class=\"column\">\n   <h5>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0602\/9721\/6225\/files\/HF_illustration_number_3.jpg?v=1633957516\" alt=\"HF img 2\" style=\"width:100%\">\nFlexible Plans, Less Hassle<\/h5>\n<p>Add extra meals to any week’s order, change your delivery day or menu preferences, skip a week or cancel anytime.<\/p>\n<\/div>\n<\/div>",
+              "width": "33%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "53a3d78a-daa9-456f-bb5e-b6f6bbace3a7",
+          "1633957034716f9d52-0",
+          "137aec04-55c1-4c35-bafd-4a319cc50fb6",
+          "342d771a-aa1c-407e-a6ee-7f6131683738"
+        ],
+        "settings": {}
+      },
+      "1633964507dfbb8a3a": {
+        "type": "slideshow",
+        "blocks": {
+          "1633964507dfbb8a3a-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/202001-bottomimage-banner-tablet.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 12,
+              "text_alignment": "center",
+              "slide_heading": "Get everything you need to cook delicious meals delivered to your door!",
+              "slide_subheading": "",
+              "button_label": "Redeem Your Offer",
+              "button_link": "shopify:\/\/pages\/deal-of-the-week",
+              "slide_text_color": "#090000",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#067a46"
+            }
+          }
+        },
+        "block_order": [
+          "1633964507dfbb8a3a-0"
+        ],
+        "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
+        }
+      },
+      "163396656414f3bbc0": {
+        "type": "collection-slider",
+        "blocks": {
+          "163396656414f3bbc0-0": {
             "type": "collection",
             "settings": {
               "collection": ""
             }
           },
-          "16338095234e25be44-2": {
+          "163396656414f3bbc0-1": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "163396656414f3bbc0-2": {
             "type": "collection",
             "settings": {
               "collection": ""
@@ -176,20 +231,55 @@
           }
         },
         "block_order": [
-          "16338095234e25be44-0",
-          "16338095234e25be44-1",
-          "16338095234e25be44-2"
+          "163396656414f3bbc0-0",
+          "163396656414f3bbc0-1",
+          "163396656414f3bbc0-2"
         ],
         "settings": {
           "title": "Collection list"
+        }
+      },
+      "16339665691cf931cf": {
+        "type": "Product-slider",
+        "settings": {
+          "title": "Product slideshow",
+          "home_featured_products": "products",
+          "home_slider_auto": false,
+          "home_slider_auto_speed": "3000",
+          "home_slider_slides": "3",
+          "home_slider_limit": "6",
+          "home_slider_hidetext": false,
+          "home_slider_hidelables": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": false,
+          "social_sharing_products": true,
+          "quantity_enabled": false,
+          "product_selector": "radio",
+          "enable_payment_button": true,
+          "add_to_cart_button_size": "small",
+          "media_layout": "stacked",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like"
         }
       }
     },
     "content_for_index": [
       "slideshow",
-      "1633806834bd979e4e",
-      "163380754370d8aa6a",
-      "16338095234e25be44"
+      "1633957034716f9d52",
+      "1633964507dfbb8a3a",
+      "163396656414f3bbc0",
+      "16339665691cf931cf"
     ]
   },
   "presets": {
